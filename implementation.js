@@ -11,6 +11,7 @@ exports.getWeather = function(args, done){
 			return done(err, null);
 		}
 		//return done(null, response);
-		return done(null, "<div>Toda's weather for "+args.city+"</div>");
+		var html = "<div>Today's weather for "+args.city+"</div>";
+		return done(null, {html: html});
 	});
 };
