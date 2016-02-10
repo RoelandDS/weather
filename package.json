@@ -1,0 +1,9 @@
+{
+  "name": "WeatherService",
+  "description": "Microservice for weather information",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "^2.69.0",
+    "seneca": "^1.1.0"
+  }
+}
